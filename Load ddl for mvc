@@ -29,3 +29,9 @@ LoadDdls('/Package/GetCategoryList', $('#ddlCategory'), 'ID_Package_Category', '
 
 for removing ddl
   $('#ddlConnection').find('option').not(':first').remove();
+  
+  
+  get value of ddl
+  
+  var monthVal = $("#ddlMonths option:selected").val();
+   var yearVal = $("#ddlYears option:selected").val();
